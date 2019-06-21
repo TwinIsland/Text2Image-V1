@@ -5,7 +5,7 @@ import os
 photo_data = cv2.imread('input.jpg')
 
 def content_from_file():
-    return open('input.txt','r').read()
+    return open('input.txt','r',encoding='utf-8').read()
 
 def to_bin(inf):
     new = ''

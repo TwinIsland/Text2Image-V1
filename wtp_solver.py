@@ -45,7 +45,7 @@ if __name__ == '__main__':
         old_sum = sum(index[:ind])
         message += wtp.to_string(data[old_sum:old_sum + lens])
 
-    with open('output.txt','w') as f:
+    with open('output.txt','w',encoding='utf-8') as f:
         f.write(message)
 
     print('ok !')
